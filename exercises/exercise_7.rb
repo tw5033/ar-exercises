@@ -12,5 +12,5 @@ puts "----------"
 # Your code goes here ...
 puts "Please enter a store name!"
 @new_name = gets.chomp
-@store7 = Store.create(name: @new_name)
+@store7 = Store.create(name: @new_name, annual_revenue: 1000)
 puts @store7.errors.full_messages
